@@ -13,6 +13,6 @@
     "supertest": "6.2.2"
   },
   "scripts": {
-    "test": "set NODE_OPTIONS='--experimental-vm-modules' && npx jest --runInBand"
+    "test": "set NODE_OPTIONS=--experimental-vm-modules && npx jest --runInBand"
   }
 }
