@@ -1,0 +1,17 @@
+{
+  "name": "e2e-node-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "edmilsonferreiraf",
+  "type": "module",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "27",
+    "nodemon": "2",
+    "supertest": "6.2.2"
+  },
+  "scripts": {
+    "test": "NODE_OPTIONS='--experimental-vm-modules --no-warnings' jest --watchAll"
+  }
+}
